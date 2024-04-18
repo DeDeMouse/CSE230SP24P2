@@ -1,6 +1,7 @@
 .org 0x10000000
 
 li $t0, 0xf0100000  # Address where switches are mapped
+
 li $t1, 0xf0200000  # Address where LEDs are mapped
 
 main_loop:
